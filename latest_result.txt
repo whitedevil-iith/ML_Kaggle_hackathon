@@ -9,5 +9,5 @@ Cross-validation results:
 	Standard Deviation of Macro F1 Score: 0.0062
 Best Model of KNN with params: {'metric': 'manhattan', 'n_neighbors': 3, 'weights': 'distance'}
 Columns to keep: ['UID', 'CropSpeciesVariety', 'CultivatedAreaSqft1', 'DistrictId', 'FarmEquipmentArea', 'FarmVehicleCount', 'FieldEstablishedYear', 'HarvestProcessingType', 'Latitude', 'Longitude', 'MainIrrigationSystemCount', 'NationalRegionCode', 'NaturalLakePresence', 'NumberOfFarmingZones', 'RawLocationId', 'StorageAndFacilityCount', 'TaxAgrarianValue', 'TaxLandValue', 'TotalCultivatedAreaSqft', 'TotalTaxAssessed', 'TotalValue', 'TownId', 'ValuationYear', 'WaterAccessPoints', 'WaterAccessPointsCalc', 'WaterReservoirCount', 'Target']
-File Made and prediction complete
+
 
