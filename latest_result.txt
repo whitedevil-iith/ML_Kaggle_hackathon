@@ -1,0 +1,13 @@
+Fitting 10 folds for each of 1 candidates, totalling 10 fits
+Best parameters: {'metric': 'manhattan', 'n_neighbors': 3, 'weights': 'distance'}
+Best F1 score from Grid Search: 0.3670311208653577
+
+
+Cross-validation results:
+	Macro F1 Scores: [np.float64(0.36284387776034105), np.float64(0.3633078959398995), np.float64(0.3677163975204907), np.float64(0.3706075259684547), np.float64(0.3594228091081213), np.float64(0.3802247413890138), np.float64(0.3688736824427867), np.float64(0.37088666407202314), np.float64(0.36539205483853704), np.float64(0.3778385436349206)]
+	Mean Macro F1 Score: 0.3687
+	Standard Deviation of Macro F1 Score: 0.0062
+Best Model of KNN with params: {'metric': 'manhattan', 'n_neighbors': 3, 'weights': 'distance'}
+Columns to keep: ['UID', 'CropSpeciesVariety', 'CultivatedAreaSqft1', 'DistrictId', 'FarmEquipmentArea', 'FarmVehicleCount', 'FieldEstablishedYear', 'HarvestProcessingType', 'Latitude', 'Longitude', 'MainIrrigationSystemCount', 'NationalRegionCode', 'NaturalLakePresence', 'NumberOfFarmingZones', 'RawLocationId', 'StorageAndFacilityCount', 'TaxAgrarianValue', 'TaxLandValue', 'TotalCultivatedAreaSqft', 'TotalTaxAssessed', 'TotalValue', 'TownId', 'ValuationYear', 'WaterAccessPoints', 'WaterAccessPointsCalc', 'WaterReservoirCount', 'Target']
+File Made and prediction complete
+
